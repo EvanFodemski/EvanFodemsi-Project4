@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:monospace, Georgia, 'Times New Roman', Times, serif ;
+}
+
+body{
+    background: #227679;
+}
+
+.hidden{
+    display:none;
+
+}
+
+.startbtn,
+.infobox{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.infobox.activeInfo{
+    z-index: 5;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+
+}
+
+.startbtn button {
+    font-size: 30px;
+    font-weight: 500;
+    color:blueviolet;
+    padding: 15px 25px;
+    outline:none;
+    border:none;
+    border-radius: 5px;
+    background:#fff ;
+    cursor: pointer;
+}
+
+.infobox .infotitle{
+    height: 75px;
+    width:100% ;
+    border-bottom: 1px solid lightblue;
+    display:flex;
+    align-items: center;
+    padding:0 35px;
+    font-size: 30px;
+    font-weight: 650px;
+}
+.infobox .infoset{
+    padding: 15px 35px;
+}
+.infobox .infoset .info{
+    margin: 5px 0;
+    font-size: 20px;
+}
+.infobox .ExitContinue{
+    height: 70px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 35px;
+    border-top: 1px solid lightblue;
+}
+
+.infobox button{
+    margin: 0 5px;
+    height:40px;
+    width:90px;
+    border: 1px solid black;
+    background: #CBC3E3;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+
+
+
+}
+
+#question{
+    background-color: #d4b6ce;
+    width: 800px;
+    height:100px;
+    margin: 100px auto 0;
+    outline-style: solid;
+    border-radius: 10px;
+    
+}
+
+
+#choiceContainer{
+    Width:800px;
+    height: 500px;
+    border: 3px solid black;
+    margin: 20px auto 0;
+}
+
+.btn{
+    Width:780px;
+    height:80px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 20px 0 0 10px;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.3s;
+}
+
+.time{
+    width: 150px;
+    height: 50px;
+    border: solid;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px auto 10px;
+    text-align: center;
+}
+
+
